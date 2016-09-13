@@ -2,11 +2,11 @@
 
 Syntax: 
 
-    urlencode <string>
+    urlencode.sh <string>
 
 Example:
 
-    $ urlencode "foo bar"
+    $ urlencode.sh "foo bar"
     foo%20bar
 
 This implementation uses just the shell, 
