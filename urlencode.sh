@@ -53,4 +53,4 @@ urlencode() {
     LC_COLLATE=$old_lc_collate
 }
 
-urlencode "$1"
+(return 0 2>/dev/null) || urlencode $@
